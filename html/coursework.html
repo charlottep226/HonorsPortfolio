@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursework</title>
+    <link rel="stylesheet" href="stylesCoursework.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Charlotte Putnam</a>
+            <div class="navbar__toggle" 
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="coursework.html" class="navbar__links">Coursework</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="research.html" class="navbar__links">Research</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="extracurriculars.html" class="navbar__links">Extracurriculars</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="learnmore.html" class="button">Learn More</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="header__container">
+            <h1>Coursework Highlights</h1>
+        </div>
+    </div>
+    <div class="estesTitle">
+        <div class="estesTitle__container">
+            <h1>Advanced Genetics Lab Research Project</h1>
+            <div class="estes__img--container">
+                <img id="estes0" src="images/estes0.jpg" alt="Image" width="80%" onclick="nextImage2()">
+            </div>
+            <script>
+                const images2=[
+                "images/estes0.jpg",
+                "images/estes1.jpg",
+                "images/estes2.jpg",
+                "images/estes3.jpg",
+                "images/estes4.jpg",
+                "images/estes5.jpg",
+                "images/estes6.jpg"]
+
+                let currII2 = 0;
+
+                function nextImage2() {
+                    currII2 = (currII2 + 1) % images2.length;
+                    document.getElementById('estes0').src = images2[currII2];
+                }
+            </script>
+        </div>
+    </div>
+    <div class="estesContent">
+        <div class="estesContent__container">
+            <p>Proper functionality of feeding hormones and the pathways that they activate is imperative to the health and wellness of an organism. These wildly varied signaling molecules allow the organism to sense hunger or satiety, which regulates feeding behaviors and energy intake. Alterations and deviations from the normal functionality of signaling molecules or receptors of those molecules can have profound effects on the overall metabolism of an organism by preventing signals from reaching the brain, leading to atypical feeding behaviors. These changes can be caused by a myriad of factors, but recent research suggests that genetic factors may play a larger role than previously thought on energy balance. Drosophila melanogaster has long been used as a model organism to study a wide variety of topics related to health and energy, because of their quick development, easy maintenance, and the plethora of genetic tools available to study them. Many genes within D. melanogaster are homologous to those in mammals, making this species helpful to investigate genes that may have broader implications for mammalian and human health. One of these genes is single-minded, which encodes for a transcription factor responsible for the development of neurons within the central midline of the paraventricular nucleus of the hypothalamus (Nambu et al. 1990). Mammals have two sim genes, sim1 and sim2, while D. melanogaster only has one. Homozygous sim1 mutant mice develop no paraventricular nucleus of the hypothalamus and die perinatally, making it difficult to study sim deficiency (Michaud et al. 2001). Moreover, homozygous sim mutant flies die during late embryogenesis. To address this challenge, transgenic D. melanogaster flies can be used which are homozygous for the wild type sim gene, but have their sim neurons silenced using the GAL4 system (Brand and Perrimon 1993). Produced from a cross between homozygous UAS-TNT virgin female flies (Sweeney et al. 1995) and homozygous sim-GAL4 male flies (Xiao et al. 1996), these organisms have the genotype UAS-TNT/sim-GAL4, and express a unique hyperphagic phenotype due to the silencing of the sim neurons by induced transcription of tetanus toxin within cells in which sim is expressed.  
+	In mammals, sim is involved with receiving signals from leptin, a hormone involved in signaling satiety, and the D. melanogaster homologue of leptin, Upd, acts as a signaling molecule for many cellular pathways involved in energy consumption (Brent and Rajan 2020). There are three Upd hormones, Upd1, Upd2, and Upd3 in Drosophila. Upd2 is a known ligand that activates the JAK/STAT signaling pathway to regulate cellular processes of immunity and cell division (Yu et al. 2022). A study conducted by Lorenzo Smith determined that D. melanogaster larvae for both wild type and UAS-TNT/sim-GAL4 genotypes express higher levels of Upd2 than at other life stages, and flies with silenced sim neurons express Upd2 at a higher level across all life stages except adult than wild type Canton S. Drosophila (Estes et al. unpublished). Because of Upd2’s involvement in JAK/STAT signaling and subsequent immune system response, upregulation of Upd2 could confer increased activation of the JAK/STAT pathway and an increase in immune system functionality. This project investigates expression of Stat92E, a protein produced from activation of the JAK/STAT pathway in response to Upd2 ligand binding, in the different developmental stages of wild type flies and flies with silenced sim neurons to attempt to further understand the effects of sim deficiency on JAK/STAT pathway activation.
+	This experiment aims to investigate the hypothesis that the increase in Upd2 expression in UAS-TNT/sim-GAL4 pupae and larvae compared to not only UAS-TNT/sim-GAL4 adult flies, but also wild type Canton S larvae, pupae, and adults leads to increased expression of the Stat92E protein. Expression of the Stat92E protein is compared between UAS-TNT/sim-GAL4 flies and wild type Canton S flies using RT-qPCR to determine if Stat92E expression is increased because of the upregulation of Upd2 in UAS-TNT/sim-GAL4 flies. Canton S flies are used as control, and adult flies for each genotype are used as control for qPCR analysis. Stat92E relative expression is determined with respect to the housekeeping gene GAPDH in adults, pupae, and larvae of each genotype. These results will help characterize the effects of Upd2 upregulation in flies with silenced sim neurons to further inform the downstream effects of changes in energy balance in UAS-TNT/sim-GAL4 flies due to the altered signaling of feeding hormones. This knowledge provides broader understanding of the role of sim in the delegation of energy in the organism to cellular processes essential for survival such as immune system activation via the JAK/STAT pathway and the underlying effects of sim deficiency on transcription of ligands with mammalian homologues involved in a critical and ubiquitous signaling pathway. 
+            </p>
+            <p>The results of this project are consistent with the original hypothesis; upregulation of Upd2 in UAS-TNT/sim-GAL4 larvae does increase Stat92E expression in these organisms when compared to both other UAS-TNT/sim-GAL4 life stages and wild type Canton S. flies. This is also consistent with the accepted model of JAK/STAT pathway activation; Upd2 is a ligand that when bound, stimulates increased transcription of Stat92E, which should mean that increased Upd2 also in turn increases Stat92E protein expression (Yu et al. 2022). This line of reason is supported by the correlation between increased Upd2 expression in UAS-TNT/sim-GAL4 larvae and pupae and increased Stat92E expression in these same life stages. UAS-TNT/sim-GAL4 flies expressed more Stat92E than Canton S. across all life stages except adult flies, where the two were statistically same, which is also consistent with the established expression of Upd2 where expression is higher in UAS-TNT/sim-GAL4 larvae and pupae (Estes et al. unpublished), but the difference becomes seemingly negligible in adult flies. 
+                The Stat92E protein has many known functions within the JAK/STAT pathway for immune system regulation in Drosophila, and a human homolog has been identified in certain immune dysregulation disorders. Some functionalities within Drosophila include immune cell proliferation, reepithelization, and antimicrobial immune defense (Yu et al. 2022), all of which are important to maintaining the health and healing of the fly. From this knowledge, it is not illogical to extrapolate that the results of this study demonstrating increased Stat92E expression in UAS-TNT/sim-GAL4 larvae and pupae may also indicate that flies with silenced sim neurons at these life stages may also exhibit an increased immune response with greater immune cell proliferation, faster wound healing, a more efficient response to invading microbes, etc. Further research is necessary to characterize the level of immune response and efficiency in these flies compared to wild type flies, possibly through inoculation of flies with silenced sim neurons and analysis of their immune response efficiency. 
+                Because of the highly conserved nature of the JAK/STAT pathway across species from flies to humans, and the presence of at least one Stat92E homolog in humans, these results may be applicable to human health for the greater understanding of the role of the JAK/STAT pathway in immunity in those presenting with sim deficiency. It is known that sim deficiency leads to an imbalance in energy regulation by affecting the signal reception of the feeding hormone leptin in mammals and Upd2 in Drosophila leading to obesity and other abnormalities, but Upd2 signaling alteration in Drosophila may have broader implications on the cellular energy being used to increase JAK/STAT pathway activation. Further research in mammals is needed to establish this trend with leptin rather than Upd2, and to elucidate the effects of this upregulation on overall immune response, but it may be that these results yield new findings of an alternate way that homeostasis and the delegation of energy to cellular processes is altered in organisms with silenced sim neurons.                 
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="hedsTitle">
+        <div class="hedsTitle__container">
+            <h1>GN 441 hEDS Presentation</h1>
+            <div class="heds__img--container">
+                <img src="images/gn441.png" alt="pic" id="gn441__img">
+            </div>
+        </div>
+    </div>
+    <div class="hedsContent">
+        <div class="hedsContent__container">
+            <h1>Blurb about hEDS presentation</h1>
+            </div>
+        </div>
+    </div>
+    <div class="womenTitle">
+        <div class="womenTitle__container">
+            <h1>Minor In Chinese Studies</h1>
+            <div class="women__img--container">
+                <img src="images/chinese.png" alt="pic" id="women__img">
+            </div>
+        </div>
+    </div>
+    <div class="womenContent">
+        <div class="womenContent__container">
+            <h2>During my time at NC State, I have had the privilege to pursue an interdisciplinary education by simultaneously working towards a Genetics major within the College of Sciences, and a Chinese Studies minor through the College of Humanities and Social Sciences. This opportunity has allowed me to continue to pursue one of my passions outside of healthcare: Chinese language and culture. I began taking Chinese language classes in high school, and progressed all the way up to taking AP Chinese my senior year. I took the AP Chinese exam, and did well enough to receive college credit at NC State. I didn’t want to lose the skill of speaking Chinese as I went through college, and I had always enjoyed my Chinese classes as a break from STEM coursework, so I decided to add a Chinese Studies minor to my college planning. 
+            </h2>
+            <h2>The experiences I have had while pursuing my minor in Chinese Studies have helped shape my professional and personal goals in life. As I prepare to graduate and apply to medical school, I am seeking out programs that may have opportunities to allow me to continue learning Chinese, either in the traditional classroom or through interaction with the Chinese community. I also am looking for medical schools who offer opportunities to study abroad, since one of my long term goals has always been to go to China. Another personal goal is to continue to celebrate traditional Chinese holidays like Lunar New Year, because these are such fun opportunities to appreciate another culture. 
+                My Chinese Studies minor has allowed me to connect with many Chinese speaking individuals throughout the years, and I plan to maintain these connections as I progress into medical school. This minor has also forced me to take many non-STEM courses, which have helped me to hone a skill set that I otherwise would not have had exposure to. I have become more comfortable speaking a foreign language in front of others in class, which has positively impacted my public speaking skills. Being involved with the humanities as I completed a major in a STEM field broadened my worldview, which I believe will certainly help me as I enter medical school to become a healthcare provider. I believe that my Chinese Studies minor will be a unique talking point in my medical school applications, and that the skills I have amassed during my undergraduate time in the College of Humanities and Social Sciences will make me a better provider and more culturally competent person.                 
+            </h2>
+            </div>
+        </div>
+    </div>
+    <div class="gn496Title">
+        <div class="gn496Title__container">
+            <h1>GN 496 Independent Research Paper</h1>
+            <div class="gn496__img--container">
+                <img src="images/traj.png" alt="pic" id="gn496__img">
+            </div>
+        </div>
+    </div>
+    <div class="gn496Content">
+        <div class="gn496Content__container">
+            <p>Segregation distortion has been characterized in many organisms undergoing a variety of different processes as a deviation from Mendel’s law of segregation, where certain alleles are inherited preferentially due to some biological mechanism (e.g. Sandler et al. 1959, Rhoades 1942, Gershenson 1928). Female meiotic drive is one of these mechanisms that affects the inheritance of a certain allele in gametes. In individuals that are heterozygous at a certain locus, under normal Mendelian genetics principles each allele should be present in exactly 50% of the gametes produced by meiosis. The mechanism of female meiosis, however, is asymmetric, and in a heterozygous individual with one normal allele and one driver allele, this asymmetry will lead to inheritance of the driver allele in greater than 50% of the gametes. This violates Mendel’s law of segregation, and meiotic drivers are often deleterious confer negative fitness effects on the individuals who carry them. Despite this, the preferential inheritance of meiotic drivers can cause them to rapidly sweep through populations. Female meiotic drive, coupled with nonrandom assortment of chromosomes in male gamete production, can have unique effects on population parameters such as allele frequency, mean fitness, and linkage disequilibrium.
+                Since Smith (1978) first outlined the centromere drive hypothesis and its implications on evolution, many other models have emerged which describe meiotic drive under various conditions and in tandem with other population forces or mechanisms (e.g. Wu 1983). Although both female meiotic drive and nonrandom male chromosome assortment have both been independently investigated in the past, there has not yet been a model that investigates the effects of nonrandom male assortment under female meiotic drive on evolution of allele frequencies and other population parameters. This model simulates female meiotic drive at three loci, in which the first two loci are initially at equilibrium, and the third locus driver arises as a rare polymorphism. The model presents two scenarios for male assortment, independent and nonrandom, in which male assortment is either affected by the drive loci, or not. The results of simulating these two types of assortment are compared to determine if the effect of female drive at three loci on male assortment causes the loss of one or more driver alleles, and aims to characterize which individual population parameters contribute to the polymorphism or extinction of each driver allele under these conditions. 
+            </p>
+            <p>We observe in the nonrandom assortment case that nearly 10% of parameter sets lead one or more loci to be lost in the population, compared to the independent assortment case, where nearly all parameter sets lead to maintained polymorphism at all loci. This shows that there is a difference in the fate of the driver allele at each locus when male assortment is affected by female meiotic drivers, which is consistent with the proposed mechanism of meiotic drive in which drivers are preferentially inherited at a rate greater than that predicted by Mendelian genetics. 
+                We find that when examining individual population parameters of drive intensity and fitness at each locus, no one parameter has an overwhelming effect on the polymorphism or loss of a specific drive allele, although it does appear that drive intensity has the most effect comparatively. This suggests that instead of one single population parameter value that causes the loss of a driver allele at a locus, it is more likely that there is a unique combination of parameters working together to drive the allele to extinction. We observe that the range of values for each parameter that yields the loss of a driver is slightly smaller than that of the same parameter which yields polymorphism at all loci, indicating there may be a very unique combinatorial window of values involving multiple parameters that pushes the system to lose a driver allele. Further analysis is required to draw these conclusions. 
+                Lastly, we find that in order for both the “a” driver and “b” driver to be lost in the population rather than driven to polymorphism, the drive intensities for these loci Ka and Kb must be significantly lower than the drive intensity for the “c” locus, Kc. In these cases, we see that the drive intensity has a large effect on whether the driver goes extinct or is maintained, and that the drive intensities must all adhere to these relative ranges of values for the loss of both the “a” and “b” allele to occur. This is consistent with the previous hypothesis that individual parameters may be working together across loci to determine whether a drive allele persists or goes extinct in a population, and is logically consistent with the definition of meiotic drivers. It is interesting to note that a high drive intensity has the potential to knock out other drivers at other loci totally, but more analysis should be done to characterize the other parameters involved in these cases to fully understand the conditions for this outcome.                 
+            </p>
+            <p>Female meiotic drivers do have an effect on the fates of drive alleles during male assortment. Depending on the specific values of drive intensity and relative fitness, driver alleles may be maintained in the population at polymorphism or may be lost entirely, compared to independent Mendelian assortment in which nearly all values for each population parameter yields polymorphism at all three loci. In cases where both the “a” and “b” driver alleles are lost in the population, it appears that the relative drive intensities between all three loci are important; the drive intensity of the invading allele must be quite high, while the drive intensity of the other two alleles initially at equilibrium must be low relative to that of the invading driver. Further analysis should be performed of the relationship between fitness values for cases where both “a” and “b” are lost, and of the relationship between drive intensities and fitnesses across all three loci in any case where a driver is lost, compared to those cases in which all loci reach polymorphism, in order to fully characterize the system and the combined parameter regions which yield each outcome. 
+            </p>
+            </div>
+        </div>
+    </div>
+    <div class="raceTitle" id="racebutton">
+        <div class="raceTitle__container">
+            <h1>HON 300 Race Project</h1>
+          
+            <div class="race__img--container">
+                <img id="slide1" src="images/slide1.jpg" alt="Image" onclick="nextImage()">
+                
+            </div>
+            <script>
+                const images=[
+                "images/slide1.jpg",
+                "images/slide2.jpg",
+                "images/slide3.jpg",
+                "images/slide4.jpg",
+                "images/slide5.jpg",
+                "images/slide6.jpg"]
+
+                let currII = 0;
+
+                function nextImage() {
+                    currII = (currII + 1) % images.length;
+                    document.getElementById('slide1').src = images[currII];
+                }
+            </script>
+        </div>
+    </div>
+    <div class="raceContent">
+        <div class="raceContent__container">
+            <h1>Blurb about race project</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
