@@ -114,7 +114,7 @@
     z-index:1;
     width:100%;
     max-width:1300px;
-    padding:0 10px;
+    padding:20px 10px;
 }
 
 .header__container h1 {
@@ -137,7 +137,7 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:115vh;
+    height:120vh;
     background-color:#fff;
     z-index:1;
     width:100%;
@@ -158,6 +158,7 @@
 
 .job__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #job__img {
@@ -170,7 +171,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:80vh;
     text-decoration:none;
 }
 
@@ -193,6 +194,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 
 .pfizerTitle {
@@ -204,7 +206,7 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:115vh;
+    height:120vh;
     background-color:#fff;
     z-index:1;
     width:100%;
@@ -225,6 +227,7 @@
 
 .pfizer__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #pfizer__img {
@@ -237,7 +240,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:50vh;
     text-decoration:none;
 }
 
@@ -260,6 +263,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 
 .vpTitle {
@@ -271,7 +275,7 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:105vh;
+    height:85vh;
     background-color:#fff;
     z-index:1;
     width:100%;
@@ -292,6 +296,7 @@
 
 .vp__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #vp__img {
@@ -304,7 +309,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:40vh;
     text-decoration:none;
 
 }
@@ -327,6 +332,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 
 .shadowingTitle {
@@ -338,7 +344,7 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:80vh;
+    height:85vh;
     background-color:#fff;
     z-index:1;
     width:100%;
@@ -359,6 +365,7 @@
 
 .shadowing__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #shadow__img {
@@ -394,5 +401,6 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 

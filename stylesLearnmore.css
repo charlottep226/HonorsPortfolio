@@ -109,12 +109,12 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:20vh;
+    height:18vh;
     background-color:#fff;
     z-index:1;
     width:100%;
     max-width:1300px;
-    padding:0 10px;
+    padding:20px 10px;
 }
 
 .header__container h1 {
@@ -137,21 +137,10 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:400vh;
+    height:302vh;
     background-color:#fff;
     z-index:1;
     width:100%;
     max-width:1300px;
-    padding:0 10px;
-}
-
-.content__container h1 {
-    font-size:2rem;
-    align-content:center;
-    background-color:#cc0000;
-    background-size:100%;
-    -webkit-background-clip:text;
-    -moz-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    -moz-text-fill-color:transparent;
+    padding:0 30px;
 }

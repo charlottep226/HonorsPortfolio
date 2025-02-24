@@ -110,7 +110,7 @@
     z-index:1;
     width:100%;
     max-width:1300px;
-    padding:0 10px;
+    padding:20px 10px;
 }
 
 .header__container h1 {
@@ -138,7 +138,7 @@
     z-index:1;
     width:100%;
     max-width:1300px;
-    padding:0 10px;
+    padding:0px 10px;
 }
 
 .estesTitle__container h1 {
@@ -154,6 +154,7 @@
 
 .estes__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #flies__img {
@@ -166,7 +167,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:170vh;
     text-decoration:none;
 }
 
@@ -189,6 +190,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:0px 40px;
 }
 
 .hedsTitle {
@@ -221,6 +223,7 @@
 
 .heds__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #gn441__img {
@@ -233,7 +236,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:55vh;
     text-decoration:none;
 
 }
@@ -256,6 +259,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 
 .womenTitle {
@@ -288,6 +292,7 @@
 
 .women__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #women__img {
@@ -300,7 +305,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:60vh;
     text-decoration:none;
 
 }
@@ -323,6 +328,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
 
 .gn496Title {
@@ -355,6 +361,7 @@
 
 .gn496__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #gn496__img {
@@ -367,7 +374,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    height:200vh;
+    height:135vh;
     text-decoration:none;
 
 }
@@ -390,6 +397,7 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding: 20px 40px;
 }
 
 .raceTitle {
@@ -401,7 +409,7 @@
     flex-direction:column;
     align-items:center;
     margin:0 auto;
-    height:115vh;
+    height:122vh;
     background-color:#fff;
     z-index:1;
     width:100%;
@@ -422,6 +430,7 @@
 
 .race__img--container {
     text-align:center;
+    padding-top:30px;
 }
 
 #slide1 {
@@ -482,4 +491,5 @@
     justify-content:center;
     flex-wrap:wrap;
     text-decoration:none;
+    padding:20px 40px;
 }
